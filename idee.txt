@@ -1,0 +1,8 @@
+modulo csv da usare come database.
+Nome del "conto" (contanti, yap, genius card, poste, ...), quantità (positiva [entrate], negativa [uscite]),
+causa (breve descrizione, es: stipendio, uscita sabato sera, compleanno ecc..), data (automatico),
+
+Seconda parte, gestione delle scadenze:
+DB in CSV
+Nome scadenza, data scadenza, periodico (no, mensile, giornaliero, settimanale, .. ripete automaticamente in base alla voce scelta),
+Avviso per Email (no, [si] indirizzo email)

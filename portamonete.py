@@ -257,7 +257,7 @@ while True:
 				"""Check if there are some expiration this month"""
 				if temp_time.tm_mday<=exp_time.tm_mday:
 					"""check if it is not already expired"""
-					exp_names.append(row[0]+" ("+row[3]+")")
+					exp_names.append(row[0])
 					e+=1
 					
 			if time.mktime(exp_time)<time.time():
